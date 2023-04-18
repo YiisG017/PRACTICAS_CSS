@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color:azure;
+    background: linear-gradient(lightSteelBlue, lightSkyBlue)
+}
+.ejemplo1{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row;
+}
+.ejemplo2{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column;
+}
+.ejemplo4{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.ejemplo8{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+.ejemplo9{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content: flex-start;
+}
+.ejemplo10{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content:flex-end;
+}
+.ejemplo11{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content:center;
+}
+.ejemplo12{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content:space-between;
+}
+.ejemplo13{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content:space-around;
+}
+.ejemplo14{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   justify-content:space-evenly;
+}
+.ejemplo15{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   align-items:flex-start;
+}
+.ejemplo16{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   align-items:flex-end;
+}
+.ejemplo17{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+  align-items:center;
+}
+.ejemplo18{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   align-items:stretch;
+}
+.ejemplo19{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+   align-items:baseline;
+}
+.ejemplo20{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 50px auto;
+    border: 2px dashed yellow;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: plum;
+}
